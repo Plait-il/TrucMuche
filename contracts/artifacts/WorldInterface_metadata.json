@@ -243,7 +243,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/WorldInterface.sol": "WorldInterface"
+			"TrucMuche/contracts/WorldInterface.sol": "WorldInterface"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -254,7 +254,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/WorldInterface.sol": {
+		"TrucMuche/contracts/WorldInterface.sol": {
 			"keccak256": "0x9bd646f9dc49109dce90db028bf5fc9dbd264d8d9e4e9a4cc138eec0ccb98a4a",
 			"urls": [
 				"bzz-raw://b2138b9f7c0700a4975e1c487981fb10cbb70b6cc0051ea320f61a350cd5ce48",
