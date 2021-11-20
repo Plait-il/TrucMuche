@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "avatarAdr",
+						"type": "address"
+					}
+				],
+				"name": "soin",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CombatStrats/soin.sol": "soinContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AvatarInterface.sol": {
+			"keccak256": "0x81f04a30246a853b10b1e0b6a8f5ca793f5c16a98df3f2559d088cddf75c3f79",
+			"urls": [
+				"bzz-raw://dc5077771c14249b8e7bbe277dc583f6660fb0c82be7d9c9cf7a059ba2e37c13",
+				"dweb:/ipfs/QmPppCCTgX8xRbVkES1isGNWErBd1NT8z3vLo7VRHKZtK6"
+			]
+		},
+		"contracts/CombatStrats/soin.sol": {
+			"keccak256": "0x2ae6d27b91f30bbe09649ca2a9f4842914f8f0f967cd401efd77c2eaddc28520",
+			"urls": [
+				"bzz-raw://45ceb13dc55ad39c927a2b27f291a4ed1edbf8ddb17130ec1be46744116930ef",
+				"dweb:/ipfs/QmQngC9LyQpdXP2zrqpTH8n7fAhojgSDrd8BE4xtjruioB"
+			]
+		}
+	},
+	"version": 1
+}

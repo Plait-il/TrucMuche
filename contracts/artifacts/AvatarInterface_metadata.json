@@ -169,6 +169,21 @@
 				"payable": false,
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "vie",
+						"type": "int256"
+					}
+				],
+				"name": "setVie",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -238,6 +253,9 @@
 				},
 				"modifierStrategieCombat(address)": {
 					"notice": "Modifie la stratégie de combat."
+				},
+				"setVie(int256)": {
+					"notice": "Met à jour la vie actuelle de l'avatar"
 				}
 			}
 		}
@@ -256,10 +274,10 @@
 	},
 	"sources": {
 		"contracts/AvatarInterface.sol": {
-			"keccak256": "0x81f04a30246a853b10b1e0b6a8f5ca793f5c16a98df3f2559d088cddf75c3f79",
+			"keccak256": "0x3b8cbe5335d90eb030955d0855174ff587e4016e50b44b9c356178a990368776",
 			"urls": [
-				"bzz-raw://dc5077771c14249b8e7bbe277dc583f6660fb0c82be7d9c9cf7a059ba2e37c13",
-				"dweb:/ipfs/QmPppCCTgX8xRbVkES1isGNWErBd1NT8z3vLo7VRHKZtK6"
+				"bzz-raw://a2c9b1c1d1f22c630b2fc62db5933ec43a5f0f7fac9884dc72c8e2c91b2852a0",
+				"dweb:/ipfs/QmUc4i2WV6tovazzsKGak9eYskC2wVCi1RzaeNsvkWE2SE"
 			]
 		}
 	},

@@ -24,6 +24,11 @@ interface AvatarInterface {
      * @return le nombre de points de vie
      */
     function getVie() external view returns(int);
+    
+    /**
+     * Met à jour la vie actuelle de l'avatar
+     */
+    function setVie(int vie) external view;
 
     /**
      * Donne la défense physique de l'avatar

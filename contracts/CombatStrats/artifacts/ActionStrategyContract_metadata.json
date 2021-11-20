@@ -56,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"TrucMuche/contracts/CombatStrats/CStrat1.sol": "ActionStrategyContract"
+			"contracts/CombatStrats/Defeat.sol": "ActionStrategyContract"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -67,25 +67,18 @@
 		"remappings": []
 	},
 	"sources": {
-		"TrucMuche/contracts/ActionStrategy.sol": {
+		"contracts/ActionStrategy.sol": {
 			"keccak256": "0xd93be27fd0f23707e6b94f272e04ec238ea31fcb8f824f9df15b719136f63094",
 			"urls": [
 				"bzz-raw://2c5a144bf1fa55683d7b396cf67597c07dcfa0ee6dca0f5630458d66c19c2d40",
 				"dweb:/ipfs/QmRB6hLhQBrWo2qi1HK1Cc5FTRxfBoiiZA1hdLpo7LQjga"
 			]
 		},
-		"TrucMuche/contracts/AvatarInterface.sol": {
-			"keccak256": "0xcab0829af9bfbcf836704e7ccdc6f475c47c0305d0c005bf5dbfdda2a6189a45",
+		"contracts/CombatStrats/Defeat.sol": {
+			"keccak256": "0x1b0947b7be584f7e8aa6a06ffd04e4a422688689af1e4485a8e6b7c6db09d286",
 			"urls": [
-				"bzz-raw://923ef5ef4f233319c173b1fff393b1dd12747a71a87fc779a87b31668737f518",
-				"dweb:/ipfs/QmTinMJDgRKgYee4Yy31Qv3n4JtYsY3TgViAmPEhS5SBa4"
-			]
-		},
-		"TrucMuche/contracts/CombatStrats/CStrat1.sol": {
-			"keccak256": "0x2ed5ff9a6ac948ad40fd301ee27703d240123d65fc831c83cea7d79bd6d1c938",
-			"urls": [
-				"bzz-raw://371944a2980f89d8b320011b5428930e727f1fbeac6b5de7ba6c2d486ad3b0bc",
-				"dweb:/ipfs/QmeuMMHGxQjUdTMG7p6QNmFatLEuzZUmpyRzdER4naV9HD"
+				"bzz-raw://3452625c1fcb04473bb7c6c354e59091a5d23839feefe8ad08c8bd2d15c1f6e3",
+				"dweb:/ipfs/Qmew7pAxuMJhh1otin1PLwPS3VJsFYpnPKHfArMzQ9iSKu"
 			]
 		}
 	},

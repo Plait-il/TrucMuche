@@ -53,7 +53,8 @@
 			"getPuissancePhysique()": "5a8120cb",
 			"getType()": "15dae03e",
 			"getVie()": "2046102d",
-			"modifierStrategieCombat(address)": "4d66720e"
+			"modifierStrategieCombat(address)": "4d66720e",
+			"setVie(int256)": "84e9be5c"
 		}
 	},
 	"abi": [
@@ -220,6 +221,21 @@
 			"outputs": [],
 			"payable": false,
 			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"constant": true,
+			"inputs": [
+				{
+					"internalType": "int256",
+					"name": "vie",
+					"type": "int256"
+				}
+			],
+			"name": "setVie",
+			"outputs": [],
+			"payable": false,
+			"stateMutability": "view",
 			"type": "function"
 		}
 	]
