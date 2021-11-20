@@ -7,7 +7,7 @@ interface WorldInterface {
      * @return vrai si le lieu existe, faux si ce n'est pas le cas
      */
     function estLieuValide(uint16 lieu) external pure returns(bool);
-
+    
     /**
      * Donne le coût du lieu en ether.
      * @param lieu le numéro du lieu
