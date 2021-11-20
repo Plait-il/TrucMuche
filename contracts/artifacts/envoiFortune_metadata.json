@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "destinataire",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/echangeFortune.sol": "envoiFortune"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/echangeFortune.sol": {
+			"keccak256": "0xcad9152b687cf5caa6abbdb2dc27993c4b5bf8e397428d74012c8d0d6251d1a4",
+			"urls": [
+				"bzz-raw://068135109deca5bf96db56859061b7998eb644d98d8ca97d60955c72ae0ef02a",
+				"dweb:/ipfs/Qmev2pJJSgP2b56dVDzxA373N7BQZh25M4ShPX23tC91fK"
+			]
+		}
+	},
+	"version": 1
+}
