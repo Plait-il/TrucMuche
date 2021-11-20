@@ -1,6 +1,6 @@
 pragma solidity >=0.4.22 <0.6.0;
 
-import './ActionStrategy.sol';
+import '../ActionStrategy.sol';
 
 contract ActionStrategyContract is ActionStrategy {//contre magie
     
@@ -9,7 +9,7 @@ contract ActionStrategyContract is ActionStrategy {//contre magie
         Action result=Action.PHYSICAL_ATTACK;
         
         if (previousAdvAction==Action.PHYSICAL_ATTACK){
-            result = Action.DODGE;
+            result = Action.PHYSICAL_ATTACK;
         }else if (previousAdvAction==Action.MAGICAL_ATTACK){
             result = Action.DODGE;
         }else if (previousAdvAction==Action.PHYSICAL_PARRY){
@@ -17,9 +17,9 @@ contract ActionStrategyContract is ActionStrategy {//contre magie
         }else if (previousAdvAction==Action.MAGICAL_PARRY){
             result = Action.PHYSICAL_ATTACK;
         }else if (previousAdvAction==Action.DODGE){
-            result = Action.PHYSICAL_ATTACK;
+            result = Action.MAGICAL_PARRY;
         }
-    
+        
         
         return result;
     }
