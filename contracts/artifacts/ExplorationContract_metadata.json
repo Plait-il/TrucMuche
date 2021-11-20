@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "explore",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getCoutLieu",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "cout",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExplorationContract.sol": "ExplorationContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AvatarInterface.sol": {
+			"keccak256": "0xcab0829af9bfbcf836704e7ccdc6f475c47c0305d0c005bf5dbfdda2a6189a45",
+			"urls": [
+				"bzz-raw://923ef5ef4f233319c173b1fff393b1dd12747a71a87fc779a87b31668737f518",
+				"dweb:/ipfs/QmTinMJDgRKgYee4Yy31Qv3n4JtYsY3TgViAmPEhS5SBa4"
+			]
+		},
+		"contracts/ExplorationContract.sol": {
+			"keccak256": "0x7ebbe91aaebb1031abc9184d098187889cab615d9c8b15b3a3fa95fd4f825da2",
+			"urls": [
+				"bzz-raw://4057393000fd4919fb7e8db3e934d59763e70e61c1a232800cfe76386294da6a",
+				"dweb:/ipfs/QmTKMUnioZf1Kjbqi4RW3kaTAUkTmbrBmSPLzyPvQM6HX1"
+			]
+		},
+		"contracts/WorldInterface.sol": {
+			"keccak256": "0x9bd646f9dc49109dce90db028bf5fc9dbd264d8d9e4e9a4cc138eec0ccb98a4a",
+			"urls": [
+				"bzz-raw://b2138b9f7c0700a4975e1c487981fb10cbb70b6cc0051ea320f61a350cd5ce48",
+				"dweb:/ipfs/QmekQ7HNbymR2sdXcqoLc8wwmBXchEcqxR2zEU2oLE73NY"
+			]
+		}
+	},
+	"version": 1
+}
