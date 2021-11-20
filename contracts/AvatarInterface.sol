@@ -43,7 +43,7 @@ interface AvatarInterface {
      */
     function getEsquive() external view returns(int);
 
-    /**
+    /** 
      * Donne la puissance physique de l'avatar
      * @return la valeur de puissance physique
      */
