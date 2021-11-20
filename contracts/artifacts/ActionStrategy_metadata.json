@@ -48,15 +48,30 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"methods": {
+				"chooseNextAction(uint8,address,int256,address,int256)": {
+					"params": {
+						"avatar": "adresse de l'avatar courant",
+						"avatarAdv": "adresse de l'avatar adverse",
+						"damages": "blessures subites depuis le debut du combats",
+						"damagesAdv": "blessures subites depuis le debut du combats",
+						"previousAdvAction": "l'action précédente de l'avatar adverse"
+					},
+					"return": "l'action de l'avatar pour le tour courant"
+				}
+			}
 		},
 		"userdoc": {
-			"methods": {}
+			"methods": {
+				"chooseNextAction(uint8,address,int256,address,int256)": {
+					"notice": "Choisi l'action d'un avatar lors d'un tour d'un combat. "
+				}
+			}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"TrucMuche/contracts/ActionStrategyContract.sol": "ActionStrategyContract"
+			"TrucMuche/contracts/ActionStrategy.sol": "ActionStrategy"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -72,13 +87,6 @@
 			"urls": [
 				"bzz-raw://2c5a144bf1fa55683d7b396cf67597c07dcfa0ee6dca0f5630458d66c19c2d40",
 				"dweb:/ipfs/QmRB6hLhQBrWo2qi1HK1Cc5FTRxfBoiiZA1hdLpo7LQjga"
-			]
-		},
-		"TrucMuche/contracts/ActionStrategyContract.sol": {
-			"keccak256": "0xf5ee577cc875fd4bacf0dccd2d6516c981b68ed852042a531b0357c9c21d1fb6",
-			"urls": [
-				"bzz-raw://77cbe841e4b4bf3e5f68e19fe4d7a6bf3e5c95a6477cd41ddc81187f34ecd76b",
-				"dweb:/ipfs/QmXsNUmA5Y5u9hbDs36cuarww24iKteMLfsRC6GWvMZVhW"
 			]
 		}
 	},

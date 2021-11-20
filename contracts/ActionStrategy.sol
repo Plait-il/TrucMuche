@@ -21,8 +21,7 @@ interface ActionStrategy {
      * @return l'action de l'avatar pour le tour courant
      */
     function chooseNextAction(Action previousAdvAction, address avatar, int damages, address avatarAdv, int damagesAdv) external view returns(Action action);
-    
-    
-    
-    
 }
+
+
+
