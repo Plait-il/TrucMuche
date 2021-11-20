@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "previousAdvAction",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damages",
+						"type": "int256"
+					},
+					{
+						"internalType": "address",
+						"name": "avatarAdv",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damagesAdv",
+						"type": "int256"
+					}
+				],
+				"name": "chooseNextAction",
+				"outputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "action",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ActionStrategyContract.sol": "Action"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/contracts/ActionStrategy.sol": {
+			"keccak256": "0xd2df051a2c8c75063a1717bf7376b7832c72e4e81491f18ce2a541b35d9f6700",
+			"urls": [
+				"bzz-raw://41e84d4655455667ae8c0984257568c6c3114b5929464811ec7aae6440e5d0c8",
+				"dweb:/ipfs/QmVwPQjfuSheUqM6S7voSYoT5FkCuKinYYfXKrE97Wwh3e"
+			]
+		},
+		"contracts/ActionStrategyContract.sol": {
+			"keccak256": "0x3318a39ca3d20e9bdc7c694acf9add41eb579157e5530e804c46a58c49c1d0dc",
+			"urls": [
+				"bzz-raw://783f593db0b3d6872a07c5e2e1aa9e0bc670326e2443871edecbb3173c2bdf53",
+				"dweb:/ipfs/QmXwK3V7jbtJJpzQrYNYrxFKauaDYpkQVj9kk8hx7odBPZ"
+			]
+		}
+	},
+	"version": 1
+}

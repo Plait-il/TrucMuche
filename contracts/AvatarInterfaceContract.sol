@@ -2,7 +2,7 @@ pragma solidity >=0.4.22 <0.6.0;
 
 import '/contracts/AvatarInterface.sol';
 
-contract TestContract is AvatarInterface{
+contract AvatarInterfaceContract is AvatarInterface{
    constructor() public{
    }
    function getCaracteristiques() external view returns(int endurance, int force, int intelligence, int vitesse){
