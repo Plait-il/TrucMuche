@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "previousAdvAction",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "avatar",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damages",
+						"type": "int256"
+					},
+					{
+						"internalType": "address",
+						"name": "avatarAdv",
+						"type": "address"
+					},
+					{
+						"internalType": "int256",
+						"name": "damagesAdv",
+						"type": "int256"
+					}
+				],
+				"name": "chooseNextAction",
+				"outputs": [
+					{
+						"internalType": "enum ActionStrategy.Action",
+						"name": "action",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TrucMuche/contracts/CombatStrats/tousa50.sol": "ActionStrategyContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TrucMuche/contracts/AvatarInterface.sol": {
+			"keccak256": "0x3b8cbe5335d90eb030955d0855174ff587e4016e50b44b9c356178a990368776",
+			"urls": [
+				"bzz-raw://a2c9b1c1d1f22c630b2fc62db5933ec43a5f0f7fac9884dc72c8e2c91b2852a0",
+				"dweb:/ipfs/QmUc4i2WV6tovazzsKGak9eYskC2wVCi1RzaeNsvkWE2SE"
+			]
+		},
+		"TrucMuche/contracts/CombatStrats/ActionStrategy.sol": {
+			"keccak256": "0xd93be27fd0f23707e6b94f272e04ec238ea31fcb8f824f9df15b719136f63094",
+			"urls": [
+				"bzz-raw://2c5a144bf1fa55683d7b396cf67597c07dcfa0ee6dca0f5630458d66c19c2d40",
+				"dweb:/ipfs/QmRB6hLhQBrWo2qi1HK1Cc5FTRxfBoiiZA1hdLpo7LQjga"
+			]
+		},
+		"TrucMuche/contracts/CombatStrats/tousa50.sol": {
+			"keccak256": "0x3f41d2bc80bd8c28656abaef6c3dc7a022f468f94787ce2bbffe4f01007a2ddb",
+			"urls": [
+				"bzz-raw://019cd0198874ab730faabd33dc33bf58ebbe30546e9a1cbc04035e0a06226fb4",
+				"dweb:/ipfs/QmXPNswpt29w8a9kDYuhkWyPczygCJAEQ3UeASJVoxixkT"
+			]
+		}
+	},
+	"version": 1
+}
